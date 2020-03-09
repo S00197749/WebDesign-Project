@@ -1,0 +1,154 @@
+header
+{
+	color:navajowhite;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	height:200px;
+	border:1px solid blue;
+}
+
+nav
+{
+    background-color: gray;
+	padding: 5px;
+}
+
+
+nav ul
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;	
+	padding: 15px;
+	margin: 5px;
+	border: 2px;
+	
+}
+
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li:hover
+{
+	background-color: #8E8E8E;
+}
+
+
+body
+{
+	font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+
+
+#content
+{
+	float: left;
+	width: 80%;
+	margin-right: 15px;
+	border: 1px solid grey;
+}
+
+aside
+{
+	border:.5px solid yellow;
+	width: 17.5%;
+	float:right;
+}
+
+aside ul li 
+{
+	list-style-type: none;
+}
+
+aside ul li a
+{
+	color:blue;
+	text-decoration: none;
+}
+
+.col_detail
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+
+footer {
+    clear: both;
+    border:1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: : relative;
+    bottom: : 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+footer ul li
+{
+    list-style-type: none;
+    display: inline;	
+	padding: 15px;
+	margin: 5px;
+	border: 2px;
+	
+}
+#bigPic {
+    float:none;
+    border: 2px solid grey;
+}
+
+
+
+
+
+
+
+#aboutUs {
+    float: left;
+	width: 25%;
+}
+
+.manager {
+    
+}
+
+.showimages {
+    float:right;
+}
+
+
+
+
+
+.video {
+    float:left;
+}
+
+iframe {
+    float:center;
+}
+
+
+
+
