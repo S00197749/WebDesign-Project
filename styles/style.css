@@ -1,15 +1,15 @@
 header
 {
-	color:navajowhite;
+	color: white;
 	background-image: url(../images/background.jpg);
 	background-size: cover;
 	height:200px;
-	border:1px solid blue;
+	border:1px solid white;
 }
 
 nav
 {
-    background-color: gray;
+    background-color: red;
 	padding: 5px;
 }
 
@@ -51,19 +51,14 @@ body
 }
 
 
-#content
-{
-	float: left;
-	width: 80%;
-	margin-right: 15px;
-	border: 1px solid grey;
-}
-
 aside
 {
-	border:.5px solid yellow;
-	width: 17.5%;
-	float:right;
+	border:.5px solid white;
+    background-color: red;
+	width: 15%;
+    float:right;
+    padding-bottom: 10px;
+    margin: 10px;
 }
 
 aside ul li 
@@ -77,6 +72,11 @@ aside ul li a
 	text-decoration: none;
 }
 
+aside ol li 
+{
+	list-style-type: none;
+}
+
 .col_detail
 {
     column-count: 3;
@@ -88,7 +88,7 @@ aside ul li a
 
 footer {
     clear: both;
-    border:1px solid orange;
+    border:1px solid white;
     padding: 0;
     margin: 0;
     position: : relative;
@@ -111,44 +111,13 @@ footer ul li
 	padding: 15px;
 	margin: 5px;
 	border: 2px;
-	
 }
-#bigPic {
-    float:none;
-    border: 2px solid grey;
-}
-
-
-
-
-
-
-
-#aboutUs {
-    float: left;
-	width: 25%;
-}
-
-.manager {
+section {
     
 }
 
-.showimages {
-    float:right;
+
+
+.about {
+    width: 80%;
 }
-
-
-
-
-
-.video {
-    float:left;
-}
-
-iframe {
-    float:center;
-}
-
-
-
-
