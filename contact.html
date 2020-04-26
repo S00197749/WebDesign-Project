@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <!Author: Luke Sweeney
   Date Created:
-  Page Description: Home page
+  Page Description: Contact page
   Modified: >
 
 <html lang="eng">
 <head>
     <meta charset="utf-8"/>
-    <meta name="description" content="Home page">
+    <meta name="description" content="Contact page">
     <meta name="keywords" content="MMA, UFC, Bellator, Fighting, Cage">
     <meta name="author" content="Luke Sweeney">
     <title>About MMA</title>
@@ -24,11 +24,11 @@
     
 	 <nav>
 		   <ul>
-			   <li id="active"> <a class="current" href="index.html">Home</a></li>
+			   <li id="active"> <a href="index.html">Home</a></li>
 			   <li> <a href="rules.html">Rules </a></li>
 			   <li> <a href="organisations.html">Organisations </a></li>
 			   <li> <a href="weights.html">Weight Classes </a></li>
-			   <li> <a href="contact.html">Contact Us </a></li> 
+			   <li> <a class="current" href="contact.html">Contact Us </a></li> 
 		   </ul>
 	 </nav>
 	  
@@ -56,20 +56,27 @@
     
     <main>
         
-        <a name="about"></a>
         <section class="about">
-        <img src="images/ufc.png" alt="UFC" style="width:300px;height:300px;"/>
-        <img src="images/bellator.png" alt="Bellator" style="width:300px;height:300px;"/>
-        <img src="images/onechampionship.png" alt="One Championship" style="width:300px;height:300px;"/>
-            <h2>About This Site</h2>
-        <p>
-             This website teaches you about about MMA.This website teaches you about about MMA.This website teaches you about about MMA.This website teaches you about about MMA.This website teaches you about about MMA.This website teaches you about about MMA.This website teaches you about about MMA.
-        </p>  
-        </section> 
-
-		<section>
-			<a class="twitter-timeline" data-width="600" data-height="700" data-theme="dark" href="https://twitter.com/ufc?ref_src=twsrc%5Etfw">Tweets by ufc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</section>
+        <section>
+	    <h3>Please enter the following information along with your message:</h3>
+		<form action="http://year1.ccpdewv.me/FromTest.php" method="get">
+		<label for="first_name">First Name: <span class="required">*</span></label>
+		<input type="text" name="first_name" id="first_name" autofocus required><br>
+		<label for="last_name">Last Name: <span class="required">*</span></label>
+		<input type="text" name="last_name" id="last_name" autofocus required><br>
+		<label for="email">Email: <span class="required">*</span></label>
+		<input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+		<label for="gender">Gender: </label>
+		<input type="radio" name="gender" id="gender" value="male">Male
+		<input type="radio" name="gender" id="gender" value="female">Female
+		<input type="radio" name="gender" id="gender" value="other" checked>Other<br>
+		<label for="message">Query:</label>
+		<textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" maxlength="200"></textarea><br>
+		<input type="submit" name="submit" id="button" value="submit">
+		<input type="reset" name="reset" id="reset">
+		</form>
+		<p style="margin-left:138px;"> <span class="required">*</span><em>Indicates a field</em></p>
+	 </section>
                
 	   		        
      </main>
